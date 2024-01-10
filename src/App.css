@@ -618,7 +618,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin-top: 20px;
 }
 
-
+/* education css */
 section#timeline {
   width: 80%;
   margin: 20px auto;
@@ -705,8 +705,8 @@ section#timeline article div.inner p {
   padding: 15px;
   margin: 0;
   font-size: 14px;
-  background: #fff;
-  color: #656565;
+  background: #151515;
+  color: #fff;
   border-radius: 0 0 6px 6px;
 }
 section#timeline article:nth-child(2n+2) div.inner {
@@ -788,4 +788,35 @@ section#timeline article:nth-child(5) div.inner h2:after {
   stroke: #d6d6d6;
   /* Used when trail is not full diameter, i.e. when props.circleRatio is set */
   stroke-linecap: round;
+}
+
+@media (max-width: 767px) {
+  section#timeline::before,
+  section#timeline article div.inner span.date {
+    display: none;
+  }
+  section#timeline article div.inner {
+    width: 100%;
+  }
+  section#timeline article div.inner h2::after {
+    display: none;
+  }
+
+  .banner h1 {
+    font-size: 32px;
+  }
+  
+
+  nav.navbar a.navbar-brand,
+  .footer img {
+    width: 90px;
+  }
+}
+@media(max-width:575px){
+  .skill-bx{
+    padding: 40px 30px;
+  }
+  .skill-slider{
+    width: 100%;
+  }
 }
