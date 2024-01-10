@@ -30,7 +30,7 @@ export const Projects = () => {
                   <Row>
                     <Col size={7} className="mx-auto">
                       <h2>Projects</h2>
-                      <p>In this section, you'll discover a collection of projects that I've personally developed. Explore each project by clicking on it to delve into its details and witness my work firsthand.</p>
+                      <p className="mb-5">In this section, you'll discover a collection of projects that I've personally developed. Explore each project by clicking on it to delve into its details and witness my work firsthand.</p>
                     </Col>
                   </Row>
                   <Row>
