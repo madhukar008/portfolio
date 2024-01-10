@@ -359,7 +359,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   line-height: 1.5em;
   margin: 14px auto 30px auto;
   text-align: center;
-  width: 100%;
+  width: 50%;
 }
 .project .nav.nav-pills {
   width: 72%;
@@ -817,6 +817,15 @@ section#timeline article:nth-child(5) div.inner h2:after {
     padding: 40px 30px;
   }
   .skill-slider{
+    width: 100%;
+  }
+}
+
+@media(min-width:320px){
+  section#timeline article div.inner p{
+    width: 100%;
+  }
+  .project p{
     width: 100%;
   }
 }
