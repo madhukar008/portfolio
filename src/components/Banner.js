@@ -67,13 +67,7 @@ export const Banner = () => {
                         loop: true,
                       }}
                     /></h1>
-                  <p>I'm Madhukar Shukla, a dedicated and enthusiastic frontend
-                    developer. With a strong foundation in HTML, CSS, and
-                    JavaScript. I have recently gained proficiency in React.js.
-                    I'm eager to bring my skills and creativity to the world of
-                    web development. As a fresher, I'm excited to contribute my
-                    skills, learn and grow while crafting intuitive and visually
-                    appealing user experiences.</p>
+                  <p>I am Madhukar Shukla, a committed and passionate frontend developer. Possessing a solid understanding of HTML, CSS, and JavaScript, I have recently acquired proficiency in React.js. I am eager to showcase my skills and creativity in the field of web development. As a newcomer, I am excited to contribute my abilities, learn, and grow while designing intuitive and visually appealing user experiences.</p>
                   <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
                 </div>}
             </TrackVisibility>
