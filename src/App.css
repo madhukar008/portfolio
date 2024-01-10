@@ -791,6 +791,9 @@ section#timeline article:nth-child(5) div.inner h2:after {
 }
 
 @media (max-width: 767px) {
+  .banner{
+    padding: 150px 0 ;
+  }
   section#timeline::before,
   section#timeline article div.inner span.date {
     display: none;
@@ -801,12 +804,9 @@ section#timeline article:nth-child(5) div.inner h2:after {
   section#timeline article div.inner h2::after {
     display: none;
   }
-
   .banner h1 {
     font-size: 32px;
   }
-  
-
   nav.navbar a.navbar-brand,
   .footer img {
     width: 90px;
@@ -821,7 +821,7 @@ section#timeline article:nth-child(5) div.inner h2:after {
   }
 }
 
-@media(min-width:320px){
+@media(max-width:575px){
   section#timeline article div.inner p{
     width: 100%;
   }
